@@ -1,9 +1,8 @@
 @echo off
-if not "%username%"=="canrigadmin" (goto failed_username)
 Title Collecting Information
 color 2
 cls
-set LogFile="c:\Info_Collection.txt"
+set LogFile="c:\log.txt"
 echo.********************************************************>%LogFile%
 echo.Current Time is : %Time%>>%LogFile%
 echo.Current Date is : %Date%>>%LogFile%
