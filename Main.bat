@@ -2,7 +2,7 @@
 Title Collecting Information
 color 2
 cls
-set LogFile="c:\log.txt"
+set LogFile="log.txt"
 echo.********************************************************>%LogFile%
 echo.Current Time is : %Time%>>%LogFile%
 echo.Current Date is : %Date%>>%LogFile%
