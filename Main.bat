@@ -3,11 +3,7 @@ Title Collecting Information
 color 2
 cls
 set LogFile="log.txt"
-echo.********************************************************>%LogFile%
-echo.Current Time is : %Time%>>%LogFile%
-echo.Current Date is : %Date%>>%LogFile%
-echo.>>%LogFile%
-echo.>>%LogFile%
+if exists log.txt then del log.txt
 
 net use x: \\192.168.1.12\C$
 psexec \\192.168.1.12 /c Image_Check.bat %LogFile%
