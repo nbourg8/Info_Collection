@@ -2,8 +2,8 @@
 Title Collecting Information
 color 2
 cls
-set LogFile="log.txt"
-if exists log.txt then del log.txt
+set LogFile=log.txt
+if exist log.txt del log.txt
 
 net use x: \\192.168.1.12\C$
 psexec \\192.168.1.12 /c Image_Check.bat %LogFile%
