@@ -1,12 +1,5 @@
-Information Collection Tool Version 2.0.0.0
+Information Collection Tool 
 
----------------------------------------------------------------------
-
-Requirements:
-	Image Versions 2.x.x.x or above
-	Run with Administrative credentials - e.g. CanrigAdmin
-	
----------------------------------------------------------------------
 Purpose:
 	This tool is used to quickly gather PC information of all VMs.
 
@@ -14,6 +7,11 @@ Purpose:
 	Computer Name | Image Version | Windows Activations | Date | Time
 	
 	Information is stored in log.txt located in the root of main.bat file
+	
+---------------------------------------------------------------------
+Requirements:
+	Image Versions 2.x.x.x or above
+	Run with Administrative credentials - e.g. CanrigAdmin
 	
 ---------------------------------------------------------------------
 Revision History
