@@ -17,4 +17,5 @@ Purpose:
 	
 ---------------------------------------------------------------------
 Revision History
+2.0.0.1 - End of Script opens log.txt immediately and rewritten log entry method from deliminated to tab seperated for ease of reading
 2.0.0.0 - Initial Release	
